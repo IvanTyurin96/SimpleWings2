@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1366777262, guid: c37b925f2b4978342b2e0b83a8fa404a, type: 3}
+  m_Name: ModData
+  m_EditorClassIdentifier: 
+  _assemblies:
+  - SimpleWings2.dll
+  _author: MOPCKOE_DNISHE
+  _description: Adds deep customizable wing with realistic physics. New part SimpleWing
+    located in Aeronautics section.
+  _loadPriority: 1000
+  _name: SimpleWings2
+  _otherAssets: []
+  _prefabs:
+  - {fileID: 3457259986215381730, guid: 13faa446661ac614f97a822d540f4392, type: 3}
+  _steamDescription: 
+  _steamLanguage: English
+  _steamPreviewPath: 
+  _steamTags: 
+  _steamTitle: 
+  _steamVisibility: 0
+  _versionMajor: 1
+  _versionMinor: 0
+  _partCategories: []
+  _parts:
+  - {fileID: 4900000, guid: 6417a5cf71116e14690b024e567e9071, type: 3}
+  _partStyleExtensions: []
+  _partTextureStyles: []
+  _persistentObjects:
+  - {fileID: 3457259986215381730, guid: 13faa446661ac614f97a822d540f4392, type: 3}
+  _uiResourceDatabases: []

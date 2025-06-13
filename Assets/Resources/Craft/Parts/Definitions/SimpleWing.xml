@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="SimpleWing">
+  <PartType id="SimpleWing" includeInBodyDrag="false" name="SimpleWing" prefabPath="Assets/Resources/Craft/Parts/Prefabs/SimpleWing.prefab" mass="1" price="100" partCollisions="Default" defaultMaterials="0,1,2,3,4" subpartsSharePartStyle="false" stylesShareHeader="false">
+    <Modifiers>
+      <Config autoActivateIfNoStageOrActivationGroup="true" buoyancyBaseScale="1" buoyancyUserScale="1" castShadows="true" centerOfMass="0,0,0" collisionDisconnectImpulse="1000" collisionDisconnectVelocity="15" collisionExplodeImpulse="2000" collisionExplodeVelocity="30" collisionPreventExternalDisconnections="false" collisionVelocityMode="NormalOnly" dragScale="1" dragScaleActive="1" dragScaleAngular="1" explosiveness="0" fuelLine="false" heatShield="0" heatShieldBaseScale="1" heatShieldMass="0" heatShieldScale="-1" heatShieldValidation="true" ignoreValidation="false" includeInDrag="false" inertiaTensorBaseScale="1" inertiaTensorMin="0.05" inertiaTensorUserScale="1" initialCraftNodeId="-1" massScale="1" maxDamage="100" maxDrag="0" maxDragActive="0" maxTemperature="1500" occlusion="Auto" partCollisionHandling="Default" partCollisionResponse="Default" partScale="1,1,1" partSelectionEnabled="true" preventDebris="false" priceScale="1" raiseWaterEventsEvenIfNotBuoyant="false" renderQueue="Default" stageActivationType="None" supportsActivation="false" supportsTransparency="true" thermalMassRatio="1" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" version="1" versionLast="1" versionsAllowed="" />
+      <InputController activationGroup="0" currentValue="0" ignorePartActivationState="true" input="Roll" invert="false" invertOnMirror="false" invertType="Output" max="1" min="-1" outputCurveOffset="0" showActivationGroup="false" showInputAxis="true" showInvert="true" type="Standard" zeroOnDeactivate="false" inputId="ControlSurface" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" version="1" versionLast="1" versionsAllowed="" />
+      <SimpleWings2.SimpleWing rootLeadingOffset="1" rootTrailingOffset="0.5" tipLeadingOffset="0.5" tipTrailingOffset="0.5" length="1" tipOffset="0" airfoilRootType="NACA 0012" airfoilTipType="NACA 0012" airfoilRootThickness="12" airfoilTipThickness="12" isAirfoilInverted="false" specialValue="false" CoSu_percentage="0" CoSu_deflectionAngle="25" CoSu_rotationSpeed="60" CoSu_spacing="1" CoSu_isBorderRounded="true" LeEd_percentage="0" LeEd_deflectionAngle="30" LeEd_rotationSpeed="60" LeEd_angleOfAttackSensitivity="1" LeEd_spacing="1" LeEd_isBorderRounded="true" LeEd_fullDeflectActivationGroup="8" LeEd_isAttachedToRoot="false" washoutAngle="0" washoutRelativePoint="0.5" isAirfoilRounded="false" airfoilRoundingLength="1" TrVo_enabled="false" TrVo_forOtherSideEnabled="true" TrVo_inWorldSpaceEnabled="false" TrVo_sizeMultiplier="1" TrVo_lengthMultiplier="1" TrVo_speedMultiplier="1" TrVo_emissionMultiplier="1" TrVo_randomAngleMultiplier="1" TrVo_randomLengthMultiplier="1" TrVo_maxParticles="3000" TrVo_opacityMultiplier="1" TrVo_growStartVisibilityAOA="7.5" TrVo_growEndVisibilityAOA="15" TrVo_fadeStartVisibilityAOA="20" TrVo_fadeEndVisibilityAOA="45" TrVo_minVisibilitySpeed="27.7" TrVo_maxVisibilitySpeed="41.55" LxVo_enabled="false" LxVo_forOtherSideEnabled="true" LxVo_inWorldSpaceEnabled="false" LxVo_sizeMultiplier="1" LxVo_randomSizeMultiplier="0.25" LxVo_lengthMultiplier="1" LxVo_speedMultiplier="1" LxVo_emissionMultiplier="1" LxVo_randomAngleMultiplier="1" LxVo_angleOfAttackSensitivity="0.5" LxVo_angleOfSlipSensitivity="1" LxVo_maxAngleOfAttack="60" LxVo_maxAngleOfSlip="5" LxVo_maxParticles="3000" LxVo_opacityMultiplier="1" LxVo_growStartVisibilityAOA="15" LxVo_growEndVisibilityAOA="20" LxVo_fadeStartVisibilityAOA="25" LxVo_fadeEndVisibilityAOA="60" LxVo_minVisibilitySpeed="27.7" LxVo_maxVisibilitySpeed="41.55" WiVo_enabled="false" WiVo_forOtherSideEnabled="true" WiVo_sizeMultiplier="1" WiVo_lengthMultiplier="1" WiVo_speedMultiplier="1" WiVo_emissionMultiplier="1" WiVo_maxParticles="3000" WiVo_opacityMultiplier="1" WiVo_growStartVisibilityAOA="15" WiVo_growEndVisibilityAOA="20" WiVo_fadeStartVisibilityAOA="25" WiVo_fadeEndVisibilityAOA="90" WiVo_minVisibilitySpeed="27.7" WiVo_maxVisibilitySpeed="41.55" wingFlexEnabled="false" wingFlexRigidityMultiplier="1" designerDeflectLeadingEdge="0" designerDeflectControlSurface="0" additionalRootLeadingOffset="0" additionalRootTrailingOffset="0" additionalTipLeadingOffset="0" additionalTipTrailingOffset="0" additionalRootLeadingRelativePercentage="25" additionalRootTrailingRelativePercentage="25" additionalTipLeadingRelativePercentage="25" additionalTipTrailingRelativePercentage="25" actuatorEnabled="false" isActuatorInverted="false" actuatorScale="2" actuatorLengthPosition="50" actuatorChordPosition="50" actuatorUpOffset="0" actuatorBackLugOffset="1" actuatorShellLength="5" actuatorFrontLugInitialOffset="5" actuatorInitialRotation="0" actuatorBackMountInitialRotation="0" actuatorFrontMountInitialRotation="0" actuatorBackMountLength="2" actuatorFrontMountLength="2" isActuatorBackMountVisible="true" isActuatorFrontMountVisible="true" isActuatorCablesVisible="true" fuelAmount="0" wingPhysicsEnabled="true" wingDestructibilityEnabled="true" transformRelativeRootEnabled="true" lerxSearchSphereRadius="0.001" lerxPartId="auto" autoAirfoilInvertEnabled="true" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" version="1" versionLast="1" versionsAllowed="" />
+      <FuelTank autoFuelType="true" capacity="0" fuel="0" fuelType="LOX/RP1" priority="0" subPriority="0" utilization="-1" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" version="1" versionLast="1" versionsAllowed="" />
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint name="AttachPointRoot" position="0,0,0" rotation="90,0,0" positionOffset="0,0,0" rotationOffset="0,0,0" allowRotation="true" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" />
+      <AttachPoint name="AttachPointTip" position="0,1,0" rotation="270,180,0" positionOffset="0,0,0" rotationOffset="0,0,0" allowRotation="false" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" />
+      <AttachPoint name="AttachPointUp" position="0,0.5,0" rotation="0,90,90" positionOffset="0,0,0" rotationOffset="0,0,0" allowRotation="false" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" />
+      <AttachPoint name="AttachPointDown" position="0,0.5,0" rotation="0,270,270" positionOffset="0,0,0" rotationOffset="0,0,0" allowRotation="false" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" />
+    </AttachPoints>
+    <SubpartTypes>
+      <SubpartType index="0" xmlName="" displayName="Part" />
+    </SubpartTypes>
+  </PartType>
+  <DesignerParts>
+    <DesignerPart name="SimpleWing" category="Airplane" description="Customizable wing." order="0" showInDesigner="true" snapshotDistanceScaler="0.65" snapshotPartRotation="125,154,14" snapshotPartOffset="-0.133,-0.339,0" snapshotRotation="0,0,0">
+      <Assembly>
+        <Parts>
+          <Part id="1" partType="SimpleWing" position="0,0,0" rotation="-90,0,0">
+            <Config />
+            <InputController />
+            <SimpleWings2.SimpleWing />
+            <FuelTank />
+          </Part>
+        </Parts>
+      </Assembly>
+    </DesignerPart>
+  </DesignerParts>
+  <PartStyles>
+    <SubpartStyles subpartIndex="0">
+      <Style id="Default" displayName="Default">
+        <TextureStyles>
+          <TextureStyle id="Default" />
+          <TextureStyle id="Wing5" />
+          <TextureStyle id="Wing6" />
+          <TextureStyle id="Wing2" />
+          <TextureStyle id="Wing4" />
+          <TextureStyle id="Wing1" />
+        </TextureStyles>
+      </Style>
+    </SubpartStyles>
+  </PartStyles>
+</Part>

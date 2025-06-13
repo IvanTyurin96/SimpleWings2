@@ -1,0 +1,16 @@
+Assets/_ModAssets_
+Library
+Logs
+ModAssetBundles
+obj
+Packages
+ProjectSettings/*.asset
+ProjectSettings/*.json
+SimpleWings2.Tests/bin
+SimpleWings2.Tests/obj
+TestResults
+UserSettings
+Temp
+_ModAssets_.meta
+*.vsconfig
+*.vs

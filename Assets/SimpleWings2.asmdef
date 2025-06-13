@@ -1,0 +1,8 @@
+{
+	"name": "SimpleWings2",
+	"references": [
+		"UnityEngine.UI",
+		"Unity.TextMeshPro",
+		"Unity.Mathematics"
+	]
+}

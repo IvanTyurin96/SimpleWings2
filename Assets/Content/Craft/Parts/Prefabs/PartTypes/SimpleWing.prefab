@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5514649597108298449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5934417672775670091}
+  - component: {fileID: 407598096294595713}
+  - component: {fileID: 1503048126062131167}
+  - component: {fileID: 7453604425359555088}
+  - component: {fileID: 6317454639992710321}
+  - component: {fileID: 7417819623235231909}
+  - component: {fileID: 6341632266896373510}
+  m_Layer: 0
+  m_Name: SimpleWing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5934417672775670091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &407598096294595713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1298369543, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    _allowDesignerReorientationOnPullout: 1
+    _allowIndividualPartRemoval: 0
+    _defaultColorIndexPrimary: 0
+    _defaultColorIndexTrim1: 1
+    _defaultColorIndexTrim2: 2
+    _defaultColorIndexTrim3: 3
+    _defaultColorIndexTrim4: 4
+    _id: SimpleWing
+    _includeInBodyDrag: 0
+    _mirrorConfig:
+      _hasRotationOffset: 0
+      _rotationOffsetEuler: {x: 0, y: 0, z: 0}
+    _name: SimpleWing
+    _partCollisionHandling: 0
+    _price: 100
+    _unscaledMass: 1
+    _usePreferredNodeName: 1
+--- !u!114 &1503048126062131167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -631517893, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    _activationGroup: 0
+    _category: {fileID: 11400000, guid: 9fc7aba65ebf25e43b8f4e9ec9a73aab, type: 2}
+    _description: Customizable wing.
+    _displayOrder: 0
+    _iconPath: 
+    _iconType: 0
+    _name: SimpleWing
+    _partTypeOverrides: []
+    _position: {x: 0, y: 0, z: 0}
+    _rotation: {x: -90, y: 0, z: 0}
+    _showInDesigner: 1
+    _snapshotDistanceScaler: 0.65
+    _snapshotPartOffset: {x: -0.133, y: -0.339, z: 0}
+    _snapshotPartRotation: {x: 125, y: 154, z: 14}
+    _snapshotRotation: {x: 0, y: 0, z: 0}
+--- !u!114 &7453604425359555088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -841283480, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    _id: 
+    _inputId: 
+    _inspectorEnabled: 1
+    _partPropertiesEnabled: 1
+    _staticPriceAndMass: 0
+    _version: 1
+    _versionLast: 1
+    _versionsAllowed: 
+    _autoActivateIfNoStageOrActivationGroup: 1
+    _buoyancyBaseScale: 1
+    _buoyancyUserScale: 1
+    _castShadows: 1
+    _centerOfMass: {x: 0, y: 0, z: 0}
+    _collisionDisconnectImpulse: 1000
+    _collisionDisconnectVelocity: 15
+    _collisionExplodeImpulse: 2000
+    _collisionExplodeVelocity: 30
+    _collisionPreventExternalDisconnections: 0
+    _collisionVelocityMode: 2
+    _dragScale: 1
+    _dragScaleActive: 1
+    _dragScaleAngular: 1
+    _explosiveness: 0
+    _fuelLine: 0
+    _heatShield: 0
+    _heatShieldBaseScale: 1
+    _heatShieldMass: 0
+    _heatShieldScale: -1
+    _heatShieldValidation: 1
+    _ignoreValidation: 0
+    _includeInDrag: 0
+    _inertiaTensorBaseScale: 1
+    _inertiaTensorMin: 0.05
+    _inertiaTensorUserScale: 1
+    _initialCraftNodeId: -1
+    _massScale: 1
+    _maxDamage: 100
+    _maxDrag: 0
+    _maxDragActive: 0
+    _maxTemperature: 1500
+    _occlusion: 0
+    _partCollisionHandling: 0
+    _partCollisionResponse: 2
+    _partScale: {x: 1, y: 1, z: 1}
+    _partSelectionEnabled: 1
+    _preventDebris: 0
+    _priceScale: 1
+    _raiseWaterEventsEvenIfNotBuoyant: 0
+    _renderQueue: 0
+    _stageActivationType: 0
+    _supportsActivation: 0
+    _supportsTransparency: 1
+    _thermalMassRatio: 1
+    _tutorialId: 
+--- !u!114 &6317454639992710321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1938718678, guid: 55a7c5278766598448d9083b0de0861d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    _id: 
+    _inputId: ControlSurface
+    _inspectorEnabled: 1
+    _partPropertiesEnabled: 1
+    _staticPriceAndMass: 0
+    _version: 1
+    _versionLast: 1
+    _versionsAllowed: 
+    _activationGroup: 0
+    _currentValue: 0
+    _designerInputOptions: 
+    _ignorePartActivationState: 1
+    _input: Roll
+    _inputAxisRange:
+      _maxValue: 0
+      _minValue: 0
+      _zeroValue: 0
+    _inputAxisRangeDesigner: 
+    _invert: 0
+    _invertOnMirror: 0
+    _invertType: 1
+    _max: 1
+    _min: -1
+    _outputCurveAmplitude: 1
+    _outputCurveFrequency: 1
+    _outputCurveKeyframes: 
+    _outputCurveOffset: 0
+    _outputCurveStyle: 4
+    _outputCurveWrapMode: 8
+    _overrideInput: 
+    _showActivationGroup: 0
+    _showInputAxis: 1
+    _showInvert: 1
+    _type: 0
+    _zeroOnDeactivate: 0
+--- !u!114 &7417819623235231909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae142863da614748bd9a999580001e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    _id: 
+    _inputId: 
+    _inspectorEnabled: 1
+    _partPropertiesEnabled: 1
+    _staticPriceAndMass: 0
+    _version: 1
+    _versionLast: 1
+    _versionsAllowed: 
+    rootLeadingOffset: 1
+    rootTrailingOffset: 0.5
+    tipLeadingOffset: 0.5
+    tipTrailingOffset: 0.5
+    length: 1
+    tipOffset: 0
+    airfoilRootType: NACA 0012
+    airfoilTipType: NACA 0012
+    airfoilRootThickness: 12
+    airfoilTipThickness: 12
+    isAirfoilInverted: 0
+    specialValue: 0
+    CoSu_percentage: 0
+    CoSu_deflectionAngle: 25
+    CoSu_rotationSpeed: 60
+    CoSu_spacing: 1
+    CoSu_isBorderRounded: 1
+    LeEd_percentage: 0
+    LeEd_deflectionAngle: 30
+    LeEd_rotationSpeed: 60
+    LeEd_angleOfAttackSensitivity: 1
+    LeEd_spacing: 1
+    LeEd_isBorderRounded: 1
+    LeEd_fullDeflectActivationGroup: 8
+    LeEd_isAttachedToRoot: 0
+    washoutAngle: 0
+    washoutRelativePoint: 0.5
+    isAirfoilRounded: 0
+    airfoilRoundingLength: 1
+    TrVo_enabled: 0
+    TrVo_forOtherSideEnabled: 1
+    TrVo_inWorldSpaceEnabled: 0
+    TrVo_sizeMultiplier: 1
+    TrVo_lengthMultiplier: 1
+    TrVo_speedMultiplier: 1
+    TrVo_emissionMultiplier: 1
+    TrVo_randomAngleMultiplier: 1
+    TrVo_randomLengthMultiplier: 1
+    TrVo_maxParticles: 3000
+    TrVo_opacityMultiplier: 1
+    TrVo_growStartVisibilityAOA: 7.5
+    TrVo_growEndVisibilityAOA: 15
+    TrVo_fadeStartVisibilityAOA: 20
+    TrVo_fadeEndVisibilityAOA: 45
+    TrVo_minVisibilitySpeed: 27.7
+    TrVo_maxVisibilitySpeed: 41.55
+    LxVo_enabled: 0
+    LxVo_forOtherSideEnabled: 1
+    LxVo_inWorldSpaceEnabled: 0
+    LxVo_sizeMultiplier: 1
+    LxVo_randomSizeMultiplier: 0.25
+    LxVo_lengthMultiplier: 1
+    LxVo_speedMultiplier: 1
+    LxVo_emissionMultiplier: 1
+    LxVo_randomAngleMultiplier: 1
+    LxVo_angleOfAttackSensitivity: 0.5
+    LxVo_angleOfSlipSensitivity: 1
+    LxVo_maxAngleOfAttack: 60
+    LxVo_maxAngleOfSlip: 5
+    LxVo_maxParticles: 3000
+    LxVo_opacityMultiplier: 1
+    LxVo_growStartVisibilityAOA: 15
+    LxVo_growEndVisibilityAOA: 20
+    LxVo_fadeStartVisibilityAOA: 25
+    LxVo_fadeEndVisibilityAOA: 60
+    LxVo_minVisibilitySpeed: 27.7
+    LxVo_maxVisibilitySpeed: 41.55
+    WiVo_enabled: 0
+    WiVo_forOtherSideEnabled: 1
+    WiVo_sizeMultiplier: 1
+    WiVo_lengthMultiplier: 1
+    WiVo_speedMultiplier: 1
+    WiVo_emissionMultiplier: 1
+    WiVo_maxParticles: 3000
+    WiVo_opacityMultiplier: 1
+    WiVo_growStartVisibilityAOA: 15
+    WiVo_growEndVisibilityAOA: 20
+    WiVo_fadeStartVisibilityAOA: 25
+    WiVo_fadeEndVisibilityAOA: 90
+    WiVo_minVisibilitySpeed: 27.7
+    WiVo_maxVisibilitySpeed: 41.55
+    wingFlexEnabled: 0
+    wingFlexRigidityMultiplier: 1
+    designerDeflectLeadingEdge: 0
+    designerDeflectControlSurface: 0
+    additionalRootLeadingOffset: 0
+    additionalRootTrailingOffset: 0
+    additionalTipLeadingOffset: 0
+    additionalTipTrailingOffset: 0
+    additionalRootLeadingRelativePercentage: 25
+    additionalRootTrailingRelativePercentage: 25
+    additionalTipLeadingRelativePercentage: 25
+    additionalTipTrailingRelativePercentage: 25
+    actuatorEnabled: 0
+    isActuatorInverted: 0
+    actuatorScale: 2
+    actuatorLengthPosition: 50
+    actuatorChordPosition: 50
+    actuatorUpOffset: 0
+    actuatorBackLugOffset: 1
+    actuatorShellLength: 5
+    actuatorFrontLugInitialOffset: 5
+    actuatorInitialRotation: 0
+    actuatorBackMountInitialRotation: 0
+    actuatorFrontMountInitialRotation: 0
+    actuatorBackMountLength: 2
+    actuatorFrontMountLength: 2
+    isActuatorBackMountVisible: 1
+    isActuatorFrontMountVisible: 1
+    isActuatorCablesVisible: 1
+    fuelAmount: 0
+    wingPhysicsEnabled: 1
+    wingDestructibilityEnabled: 1
+    transformRelativeRootEnabled: 1
+    lerxSearchSphereRadius: 0.001
+    lerxPartId: auto
+    autoAirfoilInvertEnabled: 1
+--- !u!114 &6341632266896373510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514649597108298449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 59408311, guid: 55a7c5278766598448d9083b0de0861d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    _id: 
+    _inputId: 
+    _inspectorEnabled: 1
+    _partPropertiesEnabled: 1
+    _staticPriceAndMass: 0
+    _version: 1
+    _versionLast: 1
+    _versionsAllowed: 
+    _autoFuelType: 1
+    _capacity: 0
+    _fuel: 0
+    _fuelType: LOX/RP1
+    _fuelTypeDescription: 
+    _fuelTypeReadOnly: 
+    _priority: 0
+    _subPriority: 0
+    _utilization: -1
