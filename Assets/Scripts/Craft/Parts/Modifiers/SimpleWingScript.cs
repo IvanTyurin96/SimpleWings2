@@ -1661,7 +1661,7 @@ namespace Assets.Scripts.Craft.Parts.Modifiers
 				_attachPointTip.localPosition = new Vector3(0f, _length / 2f, _tipOffset / 2f);
 
 				float tipLength = _tipLeadingOffset + _tipTrailingOffset;
-				float rotationPoint = _tipOffset + _tipLeadingOffset - tipLength * _washoutRelativePoint;
+				float rotationPoint = _tipOffset / 2f + _tipLeadingOffset - tipLength * _washoutRelativePoint;
 				_attachPointTip.localPosition = MeshHelper.RotatePointAroundPivot(_attachPointTip.localPosition, _washoutAngle, new Vector3(0f, 0f, rotationPoint));
 				_attachPointTip.localEulerAngles = new Vector3(-90f, _washoutAngle, 180f);
 
