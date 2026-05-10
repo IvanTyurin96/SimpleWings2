@@ -79,17 +79,6 @@ MonoBehaviour:
       _submeshMap: 00000000
       _subpartId: 0
     _model: {fileID: 919132149155446097, guid: 377c8fa21a4b78f43b8e1cdf6783452d, type: 3}
-  - _id: Skinned_NACA_0012
-    _meshes:
-    - _id: NACA_012_skinned
-      _initialized: 1
-      _isCollider: 0
-      _antiDistortion: 0
-      _mesh: {fileID: 2016434105411291180, guid: c0a66930a248d6e49b8e4f3ac89a8e4f, type: 3}
-      _sortOrderOverride: 
-      _submeshMap: 00000000
-      _subpartId: 0
-    _model: {fileID: 919132149155446097, guid: c0a66930a248d6e49b8e4f3ac89a8e4f, type: 3}
   - _id: T_10_root
     _meshes:
     - _id: T_10_root

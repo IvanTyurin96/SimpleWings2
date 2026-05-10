@@ -64,7 +64,6 @@
     <Compile Include="Assets\Scripts\Aerodynamics\CurveHelper.cs" />
     <Compile Include="Assets\Scripts\Aerodynamics\AerodynamicCenterCurveCalculator.cs" />
     <Compile Include="Assets\Scripts\Aerodynamics\LerxHelper.cs" />
-    <Compile Include="Assets\Scripts\UI\SimpleWingDataController.cs" />
     <Compile Include="Assets\Scripts\Craft\Parts\Modifiers\SimpleWingData.cs" />
     <Compile Include="Assets\Scripts\Craft\Parts\Modifiers\EditorScripts\SimpleWingEditorScript.cs" />
     <Compile Include="Assets\Scripts\Mod.cs" />
@@ -80,7 +79,6 @@
     <Compile Include="Assets\Scripts\Aerodynamics\DragCurveCalculator.cs" />
     <Compile Include="Assets\Scripts\CurveDemonstrator.cs" />
     <Compile Include="Assets\Scripts\Aerodynamics\CurveInverter.cs" />
-    <Compile Include="Assets\Scripts\UI\TextPainter.cs" />
     <Compile Include="Assets\Tests\Common\BaseCurveCalculatorTests.cs" />
     <Compile Include="Assets\Tests\Common\CurveComparer.cs" />
     <Compile Include="Assets\Tests\Common\KeyComparer.cs" />
@@ -1529,7 +1527,9 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\UI\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
